@@ -14,10 +14,12 @@ Put the file SimCan.pyd into the DLLs folder in your Python installation
 
 You can try the following commands
 
+<pre>
 >>>from SimCan import *
 >>>handle=can_open("CAN1")
 >>>result=can_recevie(handle, [])
 >>>can_close(handle)
+</pre>
 
 You can also set filters for can_receive(), for example:
 result = can_receive(handle, [1, 0x7d0])
