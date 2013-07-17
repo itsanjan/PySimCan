@@ -5,8 +5,8 @@ Python extension for CrossControl CCSimTech SimCan API
 
 Requirement
 ========
-Python 2.7.x 32bit
-CCSimTech
+* Python 2.7.x (32bit)
+* CCSimTech
 
 Usage
 ========
