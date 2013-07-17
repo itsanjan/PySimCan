@@ -22,7 +22,8 @@ You can try the following commands
 </pre>
 
 You can also set filters for can_receive(), for example:
-result = can_receive(handle, [1, 0x7d0])
-
+<pre>
+>>>result = can_receive(handle, [1, 0x7d0])
+</pre>
 and it will only capture the data sent to CAN ID 0x7d0.
 
