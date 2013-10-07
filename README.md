@@ -3,12 +3,11 @@ PySimCan
 
 Python extension for CrossControl CCSimTech SimCan API. 
 
-<strong>Unfortunately I don't have the clearance to post the source code here at the moment. But you can contact me if you are having trouble with it.</strong>
-
 Requirement
 ========
 * Python 2.7.x (32bit)
 * CCSimTech
+* To compile you have to have VC++ 2008 express.
 
 Usage
 ========
