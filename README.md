@@ -28,3 +28,16 @@ You can also set filters for can_receive(), for example:
 </pre>
 and it will only capture the data sent to CAN ID 0x7d0.
 
+Compiling
+========
+To compile, you need the following files from CrossControl SimTech SDK.
+
+In Headers folder:
+* SimCan.h
+* simcan_public.h
+* simcanerrorcodes.h
+
+In Libs folder:
+* simcan.c
+
+The easiest way to start is to put the source code in where your Python 2.x source code is, on the same level with Include and PCbuild. Then you don't have to change any path in the project settings.
