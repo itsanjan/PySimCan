@@ -6,7 +6,7 @@ Python extension for CrossControl CCSimTech SimCan API.
 Requirement
 ========
 * Python 2.7.x (32bit)
-* CCSimTech
+* CCSimTech 2.10.x
 * To compile you have to have VC++ 2008 express.
 
 Usage
