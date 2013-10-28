@@ -1,16 +1,15 @@
-PySimCan
-========
+#PySimCan
 
 Python extension for CrossControl CCSimTech SimCan API. 
 
-Requirement
-========
+## Requirement
+
 * Python 2.7.x (32bit)
 * CCSimTech
 * To compile you have to have VC++ 2008 express.
 
-Usage
-========
+## Usage
+
 Put the file SimCan.pyd into the DLLs folder in your Python installation
 
 You can try the following commands
@@ -28,8 +27,8 @@ You can also set filters for can_receive(), for example:
 </pre>
 and it will only capture the data sent to CAN ID 0x7d0.
 
-Compiling
-========
+## Compiling
+
 To compile, you need the following files from CrossControl SimTech SDK.
 
 In Headers folder:
@@ -41,3 +40,7 @@ In Libs folder:
 * simcan.c
 
 The easiest way to start is to put the source code in where your Python 2.x source code is, on the same level with Include and PCbuild. Then you don't have to change any path in the project settings.
+
+## Copyright and license
+
+Copyright 2013 Zhe Li under [the LGPL-3.0 license](LICENSE).
